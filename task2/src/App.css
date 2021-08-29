@@ -1,0 +1,61 @@
+div {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.navbar {
+  background-color: rgb(70, 9, 238);
+  color: #0ee7e7;
+  padding:10px;
+  }
+ .navitems h2 {
+  margin-left: 10%;
+  font-size: 30px;
+  display: inline-block;
+  } 
+  .btn {
+    margin-left: 60%;
+    float: right;
+    margin: 18px;
+    background-image: linear-gradient(to right, #baa2fc, #e722cd); 
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 10%;
+  }
+  .btn:hover {
+    background-image: -webkit-linear-gradient(top, #64b88e, #f37e97);
+    text-decoration: none;
+  }
+  .main {
+    display:inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  .avatar {
+    border-radius: 50%;
+  }
+  .userGrid {
+    border-radius:7%;
+    background-image: linear-gradient(rgb(179, 151, 240), rgb(1, 22, 21));
+    margin:50px;
+    padding:20px;
+    text-align: center;
+    transition: transform 0.5s; 
+    cursor: pointer;
+   
+  }
+  .userGrid p {
+    font-weight: 500;
+  }
+  .userGrid:hover {
+    transform: scale(1.06);
+    background-image: linear-gradient(rgb(235, 83, 83), rgb(226, 224, 105));
+  }
+#main{
+  background-color: rgb(144, 238, 230);
+}
